@@ -152,3 +152,5 @@ C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_
 C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\obj\Debug\net5.0\HiddenVilla_Server.pdb
 C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\obj\Debug\net5.0\HiddenVilla_Server.genruntimeconfig.cache
 C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\obj\Debug\net5.0\HiddenVilla_Server.csproj.CopyComplete
+C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\obj\Debug\net5.0\RazorDeclaration\Pages\LearnBlazor\LearnBlazorComp\GrandChildComponent.razor.g.cs
+C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\obj\Debug\net5.0\Razor\Pages\LearnBlazor\LearnBlazorComp\GrandChildComponent.razor.g.cs

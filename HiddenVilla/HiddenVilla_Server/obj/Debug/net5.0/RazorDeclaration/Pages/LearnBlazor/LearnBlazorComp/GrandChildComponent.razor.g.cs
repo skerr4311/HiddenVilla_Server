@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace HiddenVilla_Server
+namespace HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp
 {
     #line hidden
     using System;
@@ -89,13 +89,22 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
 #line default
 #line hidden
 #nullable disable
-    public partial class App : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class GrandChildComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 4 "C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\Pages\LearnBlazor\LearnBlazorComp\GrandChildComponent.razor"
+       
+    [Parameter]
+    public string MessageForGrandChild { get; set; }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

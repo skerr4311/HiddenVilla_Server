@@ -97,7 +97,7 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 24 "C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\Pages\LearnBlazor\LearnBlazorComp\ChildComponent.razor"
+#line 26 "C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\Pages\LearnBlazor\LearnBlazorComp\ChildComponent.razor"
        
     [Parameter]
     public string Title { get; set; }
@@ -110,6 +110,9 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
 
     [Parameter]
     public EventCallback<MouseEventArgs> OnClickBtnMethod { get; set; }
+
+    [Parameter]
+    public string MessageForGrandChild { get; set; }
 
 #line default
 #line hidden

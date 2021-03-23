@@ -103,8 +103,8 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
 
     public Dictionary<string, object> InputAttributesFromParent { get; set; } = new Dictionary<string, object>()
     {
-        //{"required", "required" },
-        //{"placeholder", "This is set from the parent" },
+        {"required", "required" },
+        {"placeholder", "This is set from the parent" },
         {"maxLength", 5 }
     };
 
