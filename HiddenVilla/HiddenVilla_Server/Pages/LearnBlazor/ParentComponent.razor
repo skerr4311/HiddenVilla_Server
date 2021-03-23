@@ -2,12 +2,12 @@
 
 <h1 class="text-danger">Parent Child Component</h1>
 
-
-<ChildComponent OnClickBtnMethod="ShowMessage" Title="This title is passed as a parameter from the parent" MessageForGrandChild="this is passed from parent">
-    <ChildContent>Render Fragment from Parent</ChildContent>
-    <DangerChildContent>Some danger headding</DangerChildContent>
-</ChildComponent>
-
+<CascadingValue Value="@messageForGrandChild">
+    <ChildComponent OnClickBtnMethod="ShowMessage" Title="This title is passed as a parameter from the parent">
+        <ChildContent>Render Fragment from Parent</ChildContent>
+        <DangerChildContent>Some danger heading</DangerChildContent>
+    </ChildComponent>
+</CascadingValue>
 <AnotherChildComponent InputAttributes="InputAttributesFromParent"></AnotherChildComponent>
 
 <p>
@@ -24,6 +24,7 @@
         {"maxLength", 5 }
     };
 
+    private string messageForGrandChild = "This is a message from Grand Parent";
     private string messageText = "";
 
     private void ShowMessage(MouseEventArgs e)

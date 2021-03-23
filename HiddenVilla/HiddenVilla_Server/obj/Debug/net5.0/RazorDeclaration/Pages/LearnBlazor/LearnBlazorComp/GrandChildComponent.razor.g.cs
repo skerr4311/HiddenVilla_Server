@@ -99,7 +99,7 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
 #nullable restore
 #line 4 "C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\Pages\LearnBlazor\LearnBlazorComp\GrandChildComponent.razor"
        
-    [Parameter]
+    [CascadingParameter]
     public string MessageForGrandChild { get; set; }
 
 #line default

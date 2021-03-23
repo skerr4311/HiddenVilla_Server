@@ -111,8 +111,6 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
     [Parameter]
     public EventCallback<MouseEventArgs> OnClickBtnMethod { get; set; }
 
-    [Parameter]
-    public string MessageForGrandChild { get; set; }
 
 #line default
 #line hidden

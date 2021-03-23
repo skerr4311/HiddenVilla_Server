@@ -108,6 +108,7 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
         {"maxLength", 5 }
     };
 
+    private string messageForGrandChild = "This is a message from Grand Parent";
     private string messageText = "";
 
     private void ShowMessage(MouseEventArgs e)
