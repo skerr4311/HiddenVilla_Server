@@ -100,14 +100,20 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
 #line 6 "C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\Pages\LearnBlazor\LearnBlazorComp\AnotherChildComponent.razor"
        
 
-    [Parameter]
-    public string placeholder { get; set; }
+    //[Parameter]
+    //public string placeholder { get; set; 
+    //[Parameter]
+    //public string required { get; set; } = "required";
+    //[Parameter]
+    //public string maxLength { get; set; } = "10";
 
     [Parameter]
-    public string required { get; set; } = "required";
-
-    [Parameter]
-    public string maxLength { get; set; } = "10";
+    public Dictionary<string, object> InputAttributes { get; set; } = new Dictionary<string, object>()
+    {
+        {"required", "required" },
+        {"placeholder", "Initial Text" },
+        {"maxLength", 10 }
+    };
 
 #line default
 #line hidden

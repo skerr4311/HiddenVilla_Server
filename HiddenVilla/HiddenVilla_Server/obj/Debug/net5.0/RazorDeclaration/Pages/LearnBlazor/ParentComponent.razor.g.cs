@@ -100,6 +100,14 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
 #nullable restore
 #line 18 "C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\Pages\LearnBlazor\ParentComponent.razor"
        
+
+    public Dictionary<string, object> InputAttributesFromParent { get; set; } = new Dictionary<string, object>()
+    {
+        //{"required", "required" },
+        //{"placeholder", "This is set from the parent" },
+        {"maxLength", 5 }
+    };
+
     private string messageText = "";
 
     private void ShowMessage(MouseEventArgs e)
