@@ -98,7 +98,7 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\Pages\LearnBlazor\ParentComponent.razor"
+#line 20 "C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\Pages\LearnBlazor\ParentComponent.razor"
        
 
     public Dictionary<string, object> InputAttributesFromParent { get; set; } = new Dictionary<string, object>()
@@ -109,6 +109,7 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
     };
 
     private string messageForGrandChild = "This is a message from Grand Parent";
+    private string LuckyNumber { get; set; } = "7";
     private string messageText = "";
 
     private void ShowMessage(MouseEventArgs e)

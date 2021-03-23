@@ -97,10 +97,13 @@ using HiddenVilla_Server.Pages.LearnBlazor.LearnBlazorComp;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 4 "C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\Pages\LearnBlazor\LearnBlazorComp\GrandChildComponent.razor"
+#line 10 "C:\Users\skerr\source\Unity_Projects\HiddenVilla_Server\HiddenVilla\HiddenVilla_Server\Pages\LearnBlazor\LearnBlazorComp\GrandChildComponent.razor"
        
-    [CascadingParameter]
+    [CascadingParameter(Name = "MessageFromGrandParent")]
     public string MessageForGrandChild { get; set; }
+
+    [CascadingParameter(Name = "GrandParentsLuckyNumber")]
+    public string LuckyNumberFromGrandParent { get; set; }
 
 #line default
 #line hidden
