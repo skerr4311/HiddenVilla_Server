@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skerr\\source\\repos\\HiddenVilla\\HiddenVilla_Server\\HiddenVilla_Server.csproj": {}
+    "C:\\Users\\skerr\\source\\Unity_Projects\\HiddenVilla_Server\\HiddenVilla\\HiddenVilla_Server\\HiddenVilla_Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skerr\\source\\repos\\HiddenVilla\\HiddenVilla_Server\\HiddenVilla_Server.csproj": {
+    "C:\\Users\\skerr\\source\\Unity_Projects\\HiddenVilla_Server\\HiddenVilla\\HiddenVilla_Server\\HiddenVilla_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skerr\\source\\repos\\HiddenVilla\\HiddenVilla_Server\\HiddenVilla_Server.csproj",
+        "projectUniqueName": "C:\\Users\\skerr\\source\\Unity_Projects\\HiddenVilla_Server\\HiddenVilla\\HiddenVilla_Server\\HiddenVilla_Server.csproj",
         "projectName": "HiddenVilla_Server",
-        "projectPath": "C:\\Users\\skerr\\source\\repos\\HiddenVilla\\HiddenVilla_Server\\HiddenVilla_Server.csproj",
+        "projectPath": "C:\\Users\\skerr\\source\\Unity_Projects\\HiddenVilla_Server\\HiddenVilla\\HiddenVilla_Server\\HiddenVilla_Server.csproj",
         "packagesPath": "C:\\Users\\skerr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skerr\\source\\repos\\HiddenVilla\\HiddenVilla_Server\\obj\\",
+        "outputPath": "C:\\Users\\skerr\\source\\Unity_Projects\\HiddenVilla_Server\\HiddenVilla\\HiddenVilla_Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

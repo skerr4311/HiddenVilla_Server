@@ -1,5 +1,16 @@
-﻿<h3>AnotherChildComponent</h3>
+﻿<div>
+    <h4 class="text-primary pt-3">Another Child Component</h4>
+    <input id="roomName" placeholder="@placeholder" required="@required" maxlength="@maxLength" class="form-control"/>
+</div>
 
 @code {
 
+    [Parameter]
+    public string placeholder { get; set; }
+
+    [Parameter]
+    public string required { get; set; } = "required";
+
+    [Parameter]
+    public string maxLength { get; set; } = "10";
 }
